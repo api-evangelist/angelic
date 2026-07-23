@@ -1,8 +1,23 @@
 aid: angelic
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/angelic.png
 name: Angelic
-description: 'Angelic is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Angelic (Angelic: Dark Symphony) is a dark, story-rich cinematic turn-based Strategy-RPG
+  from Angelicore Game Studios, where players lead neo-human angels through tactical missions, impossible
+  choices, and cosmic horror. Originally launched as a Web3 / metaverse gaming project backed by Pantera
+  Capital, the title is now distributed as a premium PC game on Steam and the Epic Games Store. Angelic
+  publishes no public API, developer portal, SDKs, or documentation surface as of this profile; it is a
+  consumer game studio rather than an API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/angelic/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +31,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Crypto
+- Gaming
+- Video Games
+- Strategy RPG
+- Web3
+- Entertainment
+- Game Studio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/angelic-domain-security.yml
 - type: Website
   url: https://www.angelicthegame.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
